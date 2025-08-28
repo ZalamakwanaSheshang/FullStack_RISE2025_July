@@ -1,0 +1,181 @@
+<html>
+
+<head>
+    <title>Advance Profile form</title>
+</head>
+<style>
+    div {
+        margin-top: 0.5rem;
+    }
+</style>
+
+<body>
+    <form action="">
+        <fieldset>
+            <legend>
+                <h1>Form Assignment</h1>
+            </legend>
+
+            <div>
+                <fieldset>
+                    <legend>
+                        <h2>Basic Details</h2>
+                    </legend>
+                    <div>
+                        <label for="">Full Name:</label>
+                        <input type="text" name="fullName" id="" placeholder="Full Name" required></textarea>
+                    </div>
+                    <div>
+                        <label for="">Email:</label>
+                        <input type="email" required placeholder="email@gmail.com">
+                    </div>
+                    <div>
+                        <label for="">Password:</label>
+                        <input type="password" required>
+                    </div>
+                    <div>
+                        <label for="">Confirm Password:</label>
+                        <input type="password" required minlength="6" placeholder="Should match Password">
+                    </div>
+                </fieldset>
+            </div>
+            <div>
+                <fieldset>
+                    <legend>
+                        <h2>Contact Information</h2>
+                    </legend>
+                    <div>
+                        <label for="">Phone Number:</label>
+                        <input type="tel" maxlength="10" pattern="\d+">
+                    </div>
+                    <div>
+                        <label for="">Website/Portfolio URL:</label>
+                        <input type="url">
+                    </div>
+                    <div>
+                        <label for="">Upload Profile Picture / Resume:</label>
+                        <input type="file" accept=".png, .jpeg, .jpg">
+                    </div>
+                </fieldset>
+            </div>
+            <div>
+                <fieldset>
+                    <legend>
+                        <h2>Selection Inputs</h2>
+                    </legend>
+                    <div>
+                        <fieldset>
+                            <legend>Gender </legend>
+                            <label for=""> Male:</label>
+                            <input type="radio" name="gender"> <br>
+                            <label for=""> Female:</label>
+                            <input type="radio" name="gender">
+                        </fieldset>
+                    </div>
+                    <div>
+                        <fieldset>
+                            <legend>Skills</legend>
+                            <label for="">HTML</label>
+                            <input type="checkbox"> <br>
+                            <label for="">CSS</label>
+                            <input type="checkbox"> <br>
+                            <label for="">JavaScript</label>
+                            <input type="checkbox"> <br>
+                            <label for="">React</label>
+                            <input type="checkbox"> <br>
+                            <label for="">Angular</label>
+                            <input type="checkbox">
+                        </fieldset>
+                        <fieldset>
+                            <legend>Preferred Location</legend>
+                            <select name="" id="">
+                                <option value="">Location</option>
+                                <option value="">Pune</option>
+                                <option value="">Mumbai</option>
+                                <option value="">Vadodara</option>
+                                <option value="">Ananad</option>
+                            </select>
+                        </fieldset>
+                    </div>
+                </fieldset>
+            </div>
+            <div>
+                <fieldset>
+                    <legend>
+                        <h2>Advance Input</h2>
+                    </legend>
+                    <div>
+                        <label for="">Date of Birth:</label>
+                        <input type="date">
+                    </div>
+                    <div>
+                        <label for="">Select a Week:</label>
+                        <input type="week">
+                    </div>
+                    <div>
+                        <label for="">Select a Month:</label>
+                        <input type="month">
+                    </div>
+                    <div>
+                        <label for="">Choose a Time:</label>
+                        <input type="time">
+                    </div>
+                    <div>
+                        <label for="">Choose a Local Date & Time:</label>
+                        <input type="datetime-local">
+                    </div>
+                    <div>
+                        <label for="">Pick Your Favorite Color:</label>
+                        <input type="color">
+                    </div>
+                    <div>
+                        <label for="">Age:</label>
+                        <input type="number" min="18" max="80">
+                    </div>
+                    <div>
+                        <label for="">Range for Experience:</label>
+                        <input type="range" max="100" min="10" step="10">
+                    </div>
+                </fieldset>
+            </div>
+            <div>
+                <fieldset>
+                    <legend>
+                        <h2>Text Input</h2>
+                    </legend>
+                    <div>
+                        <label for="">About Yourself:</label> <br>
+                        <textarea name="" id="" cols="50" rows="4"></textarea>
+                    </div>
+                    <div>
+                        <label for="">Address:</label> <br>
+                        <textarea name="" id="" cols="50"></textarea>
+                    </div>
+                </fieldset>
+            </div>
+            <div>
+                <fieldset>
+                    <legend>
+                        <h2>Hidden Field</h2>
+                    </legend>
+                    <div>
+                        <input type="hidden" value="form-version = v2">
+                    </div>
+                </fieldset>
+            </div>
+            <div>
+                <fieldset>
+                    <legend>
+                        <h2>Other Controls</h2>
+                    </legend>
+                    <div>
+                        <button type="reset">Reset</button>
+                        <button type="submit">Create Profile</button>
+                    </div>
+                </fieldset>
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>
