@@ -1,0 +1,128 @@
+<html>
+
+<head>
+    <title>Assignment 7</title>
+</head>
+<style>
+    body {
+        background-color: blue;
+        padding-top: 6rem;
+    }
+
+    .main_form {
+        width: 40rem;
+        height: 30rem;
+        background-color: white;
+        padding-left: 1rem;
+        padding-top: 2px;
+        margin: auto;
+        border-radius: 1%;
+    }
+
+    .rows {
+        display: flex;
+        gap: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    span {
+        border-bottom: 3px solid blue;
+    }
+
+    .fieldTitle {
+        color: gray;
+        padding-bottom: 1rem;
+    }
+
+    .btn {
+        background-color: blue;
+        color: white;
+        width: 12rem;
+        height: 2rem;
+        border-radius: 4px;
+    }
+
+    input {
+        width: 12rem;
+        height: 1.5rem;
+    }
+</style>
+
+<body>
+    <div class="main_form">
+        <form action="">
+            <legend>
+                <h2><span>Re</span></ul>gistration</h2>
+            </legend>
+            <div>
+                <legend class="fieldTitle">Personal Details</legend>
+                <div class="rows">
+                    <div>
+                        <label for="fName">Full Name</label><br>
+                        <input type="text" id="fName" placeholder="Enter your name">
+                    </div>
+                    <div>
+                        <label for="dob">Date of Birth</label><br>
+                        <input type="date" id="dob" placeholder="Enter birth date">
+                    </div>
+                    <div>
+                        <label for="email">Email</label><br>
+                        <input type="email" id="email" placeholder="Enter your email">
+                    </div>
+                </div>
+                <div class="rows">
+                    <div>
+                        <label for="mobileNo">Mobile Number</label><br>
+                        <input type="tel" id="mobileNo" placeholder="Enter mobile number">
+                    </div>
+                    <div>
+                        <label for="gender">Gender</label><br>
+                        <!-- we can use radio button also -->
+                        <input type="text" id="gender" placeholder="Enter your gender">
+                    </div>
+                    <div>
+                        <label for="occupation">Occupation</label><br>
+                        <input type="text" id="occupation" placeholder="Enter occuption">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <legend class="fieldTitle">Identity Details</legend>
+                <div class="rows">
+                    <div>
+                        <label for="idType">ID Type</label> <br>
+                        <input type="text" id="idType" placeholder="Enter ID Type">
+                        <!-- we can use drop down also -->
+                    </div>
+                    <div>
+                        <label for="idNumber">ID Number</label> <br>
+                        <input type="number" id="idNumber" placeholder="Enter ID Number">
+                    </div>
+                    <div>
+                        <label for="issueAuth">Issue Authority</label> <br>
+                        <input type="text" id="issueAuth" placeholder="Enter issue department">
+                    </div>
+                </div>
+                <div class="rows">
+                    <div>
+                        <label for="issueDate">Issue Date</label> <br>
+                        <input type="date" id="issueDate" placeholder="Enter ID Issue Date">
+                    </div>
+                    <div>
+                        <label for="issueState">Issue State</label> <br>
+                        <input type="text" id="issueState" placeholder="Enter ID Issue state">
+                    </div>
+                    <div>
+                        <label for="ExpDate">Expiry Date</label> <br>
+                        <input type="date" id="ExpDate" placeholder="Enter ID Expiry Date">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <button class="btn">Next -></button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
