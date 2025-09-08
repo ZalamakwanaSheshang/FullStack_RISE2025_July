@@ -1,0 +1,80 @@
+body {
+  background-color: rgb(20, 99, 178);
+  color: white;
+  background-image: url(./fullStackBackground.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: overlay;
+  background-size: contain;
+}
+
+.table img:hover {
+  opacity: 0.3;
+}
+
+.table a {
+  color: white;
+}
+
+.table a:hover {
+  color: aqua;
+  text-shadow: 1px 1px 5px aquamarine;
+}
+
+.Flex_Container {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.Flex_Container div {
+  margin-top: 0;
+  border: 2px solid black;
+}
+
+.overflow_hidden {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(9, 97, 8);
+  overflow: hidden;
+  opacity: 0.5;
+}
+
+.overflow_scroll {
+  width: 200px;
+  height: 200px;
+  overflow: scroll;
+}
+
+.overflow_scroll_y {
+  width: 100px;
+  height: 100px;
+  overflow-y: scroll;
+}
+
+.overflow_scroll_x {
+  width: 100px;
+  height: 100px;
+  white-space: nowrap;
+  overflow-x: scroll;
+}
+
+.overflow_clip {
+  width: 100px;
+  height: 20px;
+  overflow: clip;
+}
+
+.text_overflow_ellipsis {
+  width: 100px;
+  height: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.overflow_visible {
+  width: 100px;
+  height: 100px;
+  overflow: visible;
+}

@@ -15,13 +15,14 @@
             margin-left: 10px;
         }
     </style>
+    <link rel="stylesheet" href="./Assignment_8.css">
 </head>
 
 <body>
-    <table>
+    <table class="table">
         <thead>
             <caption>
-                <h1>Image Table</h1>
+                <h1>Image and Links</h1>
             </caption>
             <tr>
                 <th>Topic</th>
@@ -53,6 +54,33 @@
         </tbody>
         <tfoot></tfoot>
     </table>
+    <div>
+        <h1>Overflow - properties</h1>
+        <div class="Flex_Container">
+            <div class="overflow_hidden">
+                Font is White but transparent. There is more content inside this box, but is hidden and we can not see
+                the the rcontent.
+            </div>
+            <div class="overflow_scroll">
+                The content is not exceeding the height-width.
+            </div>
+            <div class="overflow_scroll_y">
+                Only if the content is exceeding, i will be able to scroll the content verticaly.
+            </div>
+            <div class="overflow_scroll_x">
+                Only if the content is exceeding, i will be able to scroll the content horizontaly.
+            </div>
+            <div class="overflow_clip">
+                More content is there but hidden by clip type.
+            </div>
+            <div class="text_overflow_ellipsis">
+                More content is there. overflow: hidden; and text-overflow: ellipsis; is used.
+            </div>
+            <div class="overflow_visible">
+                In any case, the user will be able to see all the content, exceeding the height and width.
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
